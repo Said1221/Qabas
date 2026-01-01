@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:qabas/home.dart';
+import 'package:qabas/layout.dart';
 
 void main() {
   runApp(
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: homeScreen(),
+      home: layoutScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

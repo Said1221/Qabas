@@ -7,14 +7,17 @@ class homeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        height: double.infinity,
         width: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text('بسم الله الرحمن الرحيم'),
-            Text('لقد توكلنا علي الله'),
-          ],
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/1.jpeg"),
+            fit: BoxFit.cover,
+            colorFilter: ColorFilter.mode(
+              Colors.black.withOpacity(0.5),
+              BlendMode.darken,
+            ),
+          ),
         ),
       ),
     );
