@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:qabas/core/theme/app_text_styles.dart';
 import 'package:qabas/cubit.dart';
 import 'package:qabas/state.dart';
 
@@ -23,6 +24,8 @@ class layoutScreen extends StatelessWidget {
               unselectedItemColor: Colors.white,
               type: BottomNavigationBarType.fixed,
               currentIndex: cubit.currentIndex,
+              selectedLabelStyle: AppTextStyles.textFamily,
+              unselectedLabelStyle: AppTextStyles.textFamily,
               elevation: 0,
 
               onTap: (index) {
