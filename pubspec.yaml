@@ -66,6 +66,13 @@ flutter:
     - assets/2.jpeg
     - assets/logo1.png
     - assets/logo2.png
+    - assets/logo3.png
+    - assets/tasbih.png
+    - assets/quran.png
+    - assets/moon.png
+    - assets/moon2.png
+    - assets/ahadith.png
+    - assets/3.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
